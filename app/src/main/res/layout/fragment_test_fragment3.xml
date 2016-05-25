@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gonzalomansilla.testlayout.TestFragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#287dba">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:paddingTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por favor, para registarse en Keepool haga click aqui abajo"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:onClick="irAlRegistro" />
+    </LinearLayout>
+</FrameLayout>
